@@ -1,0 +1,50 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.caja{
+	background-color: #9B0022;
+}
+
+header{
+	text-align: center;
+}
+
+.back{
+	background-image: url(http://lorempixel.com/1024/600/cats/255);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.back .container{
+	background-color: rgba(255,255,255, 0.5);
+	position: relative;
+	height: 100vh;
+}
+
+.texto{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+.fondo{
+	background-image: url(http://lorempixel.com/1024/150/cats);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+	color: whitesmoke;
+	font-size: 30px;
+}
+
+.col-4 button{
+	background-color: #62B8B5;
+	padding: 10px 15px;
+	color: whitesmoke;
+	float: right;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
